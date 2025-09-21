@@ -1,11 +1,11 @@
 # finance_calculator.py
 
 # Step 1: Get user input
-income = float(input("Enter your monthly income: "))
-expenses = float(input("Enter your total monthly expenses: "))
+monthly_income = float(input("Enter your monthly income: "))
+monthly_expenses = float(input("Enter your total monthly expenses: "))
 
 # Step 2: Calculate monthly savings
-monthly_savings = income - expenses
+monthly_savings = monthly_income - monthly_expenses
 
 # Step 3: Project annual savings with 5% interest
 annual_savings = monthly_savings * 12
