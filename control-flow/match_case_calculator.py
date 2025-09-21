@@ -18,7 +18,7 @@ match operation:
     
     case "/":
         divide = num1 / num2
-        if num1 or num2 == 0:
+        if num2 == 0:
             print("Cannot divide by zero.")
         else:
             print("The result is "+divide)
